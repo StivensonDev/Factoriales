@@ -1,9 +1,7 @@
-let factorial = 1
-let numero = 10
+let factorial = 1;
+let num = 10;
 
-while (true) {
-    factorial *= numero; numero --;
-    if (numero === 1)
-    break
+while (num > 1) {
+    factorial *= num; num--;
 }
 console.log(factorial);
